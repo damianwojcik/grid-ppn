@@ -1,0 +1,87 @@
+.main {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "article1 article1 article2 article3"
+    "article4 article5 article6 article6"
+    "article7 article7 article8 box";
+}
+
+.article:nth-child(1) {
+    grid-area: article1;
+}
+
+.article:nth-child(2){
+    grid-area: article2;
+}
+
+.article:nth-child(3){
+    grid-area: article3;
+}
+
+.article:nth-child(4){
+    grid-area: article4;
+}
+
+.article:nth-child(5){
+    grid-area: article5;
+}
+
+.article:nth-child(6){
+    grid-area: article6;
+}
+
+.article:nth-child(7){
+    grid-area: article7;
+}
+
+.article:nth-child(8){
+    grid-area: article8;
+}
+
+.box {
+    grid-area: box;
+}
+
+.header,
+.footer {
+    padding: 1rem 2rem;
+}
+
+.article,
+.box-top,
+.box-bottom {
+    padding: 2rem;
+}
+
+/* .article__buttons {
+    display: flex;
+} */
+
+.article .article__title {
+    max-width: 100%;
+    margin-bottom: 3.75rem;
+}
+
+.article .article__arrow {
+    margin-bottom: 3.125rem;
+}
+
+.article-2x .article__title {
+    font-size: 1.8rem;
+    line-height: 2.1875rem;
+    margin-bottom: 1.875rem;
+}
+
+.article-2x .article__arrow {
+    font-size: 2.5rem;
+    margin-bottom: 1.5625rem;
+}
+
+.box {
+    display: grid;
+}
+
+.counter {
+    text-align: left;
+}

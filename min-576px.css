@@ -1,0 +1,30 @@
+.logo-txt {
+    display: inline-block;
+    line-height: 1;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-left: 0.8rem;
+    margin-top: 8px;
+}
+
+.logo-txt small {
+    display: block;
+    font-weight: 300;
+}
+
+.article__title {
+    max-width: 60%;
+    margin-bottom: 2rem;
+}
+
+.article .article__arrow {
+    margin-bottom: 2rem;
+}
+
+.footer .nav li {
+    display: inline-block;
+}
+
+.footer .nav li:not(:first-child) {
+    margin-left: 1.5rem;
+}
